@@ -1,0 +1,19 @@
+# Referência para copiar as seções ao supabase/config.toml do projeto implantado.
+
+[functions.admin-metrics]
+verify_jwt = true
+
+[functions.admin-tenants]
+verify_jwt = true
+
+[functions.admin-users]
+verify_jwt = true
+
+[functions.admin-billing-stripe]
+verify_jwt = true
+
+[functions.admin-billing-ops]
+verify_jwt = true
+
+[functions.stripe-webhook]
+verify_jwt = false
