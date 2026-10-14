@@ -3,7 +3,7 @@
 
 do $$
 declare
-  v_email text := 'SUBSTITUA_PELO_SEU_EMAIL';
+  v_email text := 'jeanAdmin@jvs.com.br';
   v_user_id uuid;
   v_request_id uuid := gen_random_uuid();
 begin
